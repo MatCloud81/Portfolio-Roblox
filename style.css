@@ -386,6 +386,14 @@ img, video { max-width: 100%; display: block; }
   justify-content: space-between;
 }
 
+.project-card__img {
+  width: calc(100% + 48px);
+  margin: -24px -24px 16px;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
 .project-card__corners span {
   position: absolute;
   width: 14px; height: 14px;
@@ -467,3 +475,5 @@ img, video { max-width: 100%; display: block; }
   html { scroll-behavior: auto; }
   .btn:hover { transform: none; }
 }
+
+
