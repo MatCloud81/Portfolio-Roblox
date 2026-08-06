@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pepito — Roblox Builder · Scripter · UI Designer</title>
+<meta name="description" content="Portfolio Roblox : Build, Scripting et UI Design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<nav class="nav">
+  <div class="nav__brand">PEPITO <span>// roblox dev</span></div>
+  <div class="nav__links">
+    <a href="index.html" class="active">Accueil</a>
+    <a href="builder.html" data-axis="x">Builder <span style="opacity:.5">X</span></a>
+    <a href="scripter.html" data-axis="y">Scripter <span style="opacity:.5">Y</span></a>
+    <a href="ui-designer.html" data-axis="z">UI Designer <span style="opacity:.5">Z</span></a>
+  </div>
+  <div class="nav__social">
+    <a href="https://discord.gg/TON-INVITE" target="_blank" rel="noopener" aria-label="Discord" title="Discord">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.4A19.8 19.8 0 0 0 15.4 3l-.3.5c1.8.5 2.7 1.1 3.6 1.8-1.6-.8-3.2-1.2-4.7-1.2-1.6 0-3.1.4-4.7 1.2.9-.7 2-1.3 3.6-1.8L12.6 3a19.8 19.8 0 0 0-4.9 1.4C4.9 8 4.1 11.5 4.4 15c1.5 1.1 3 1.8 4.4 2.2l.6-1c-.7-.3-1.4-.6-2-1 .2-.1.3-.2.5-.3 3.7 1.7 7.7 1.7 11.4 0l.5.3c-.6.4-1.3.7-2 1l.6 1c1.4-.4 2.9-1.1 4.4-2.2.4-4-.6-7.5-2.9-10.6ZM9.7 13.3c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm4.6 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"/></svg>
+    </a>
+    <a href="https://www.roblox.com/users/TON-ID/profile" target="_blank" rel="noopener" aria-label="Roblox" title="Roblox">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M4.3 4.3 19.7 8l-3.7 15.4L.7 19.7 4.3 4.3Zm4.3 6.6-1.4 5.8 5.8 1.4 1.4-5.8-5.8-1.4Z"/></svg>
+    </a>
+  </div>
+  <button class="nav__toggle" aria-label="Menu">≡</button>
+</nav>
+
+<header class="hero">
+  <video class="hero__video" autoplay muted loop playsinline>
+    <source src="assets/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <div class="hero__tags">
+      <span class="tag" data-axis="x"><span class="tag__dot"></span>BUILDER</span>
+      <span class="tag" data-axis="y"><span class="tag__dot"></span>SCRIPTER</span>
+      <span class="tag" data-axis="z"><span class="tag__dot"></span>UI DESIGNER</span>
+    </div>
+    <h1>Je construis des<br>mondes Roblox.</h1>
+    <p class="hero__sub">
+      Build, code et interfaces — trois compétences, une seule vision : des expériences
+      Roblox soignées du terrain jusqu'au menu principal.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--discord" href="https://discord.gg/TON-INVITE" target="_blank" rel="noopener">Discord →</a>
+      <a class="btn btn--roblox" href="https://www.roblox.com/users/TON-ID/profile" target="_blank" rel="noopener">Profil Roblox →</a>
+    </div>
+  </div>
+  <div class="scrollhint">SCROLL</div>
+</header>
+
+<section class="section" id="bio">
+  <p class="eyebrow">// À propos</p>
+  <h2>Qui suis-je</h2>
+  <p class="bio__text">
+    Je suis <strong>Pepito</strong>, développeur Roblox. Je travaille sur mes propres
+    expériences — de la génération procédurale de terrain aux systèmes de gameplay,
+    en passant par les interfaces qui les habillent. J'aime autant poser un bloc que
+    déboguer un Motor6D à 2h du matin.
+    <br><br>
+    <em>[Remplace ce paragraphe par ta vraie bio : ton parcours, tes jeux publiés,
+    ton style de travail, ce que tu recherches — stage, freelance, équipe...]</em>
+  </p>
+</section>
+
+<section class="section" id="contact">
+  <p class="eyebrow">// Contact</p>
+  <h2>Discutons de ton projet</h2>
+  <div class="contact-grid">
+    <a class="contact-card" href="https://discord.gg/TON-INVITE" target="_blank" rel="noopener">
+      <div class="contact-card__label">Discord</div>
+      <div class="contact-card__value">rejoindre le serveur →</div>
+    </a>
+    <a class="contact-card" href="https://www.roblox.com/users/TON-ID/profile" target="_blank" rel="noopener">
+      <div class="contact-card__label">Roblox</div>
+      <div class="contact-card__value">voir le profil →</div>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>© 2026 Pepito — Roblox Developer</span>
+  <span>Build · Script · UI</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
