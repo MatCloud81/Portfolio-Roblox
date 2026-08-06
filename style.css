@@ -387,10 +387,12 @@ img, video { max-width: 100%; display: block; }
 }
 
 .project-card__img {
+  display: block;
   width: calc(100% + 48px);
   margin: -24px -24px 16px;
   height: 160px;
   object-fit: cover;
+  object-position: center;
   border-bottom: 1px solid var(--border);
 }
 
